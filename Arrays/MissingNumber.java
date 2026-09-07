@@ -11,6 +11,8 @@ public class MissingNumber {
         return expectedsum-actualsum;
     }
     public static void main(String[] args){
-
+int[] arr = {3, 0, 1};
+int ans=missingNumber(arr);
+System.out.println(ans);
     }
 }
